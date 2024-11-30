@@ -9,7 +9,7 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "Deployment with kubernetes!!";
+		return "Deployment with kubernetes test!!";
 	}
 	
 	public static void main(String[] args) {
